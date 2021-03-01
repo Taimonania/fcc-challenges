@@ -1,0 +1,49 @@
+h1 {
+  margin-bottom: 0px;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0px auto 2em auto;
+  text-align: left;
+}
+
+#main {
+  font-size: 20px;
+  padding: 25px;
+  background-color: lightgray;
+  border-radius: 1em;
+}
+#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  grid-template-rows: repeat(4, auto);
+}
+#title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+#img-div {
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  background-color: #f2f2f2;
+  padding: 1em;
+}
+#img-div img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 5px auto;
+  
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
